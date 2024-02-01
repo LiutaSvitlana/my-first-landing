@@ -10,7 +10,7 @@ html {
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
-    font-weight: normal;
+    /* font-weight: normal; */
   }
   
   ol, ul {
@@ -22,14 +22,128 @@ html {
     height: auto;
   }
 
-  body {
-    font-family: 'Manrope', sans-serif;
-  }
 
-  .header {
-    display: block;
-  }
+  
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #9C72A9;
+}
 
-  .navigation {
-    display: flex;
-  }
+.background-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3% auto;
+  background-color: #000000;
+  box-shadow: 0px 60px 54px -47px rgba(0,0,0,0.66);
+  width: 1278px;
+  height: 850px;
+  border-radius: 28px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 62px 106px;
+}
+
+li, a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFF;
+  text-decoration: none;
+  margin: auto;
+}
+
+.logo {
+  width: 46px;
+  height: 62px;
+  margin-left: 337px;
+  margin-right: 290px;
+}
+
+/* .nav-group1 {
+  margin: 0;
+  margin-right: 34px;
+}
+
+.nav-group2 {
+  margin: 0;
+  margin-left: 34px;
+} */
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #F53FA1;
+  margin-bottom: 26px;
+  margin-left: 16px;
+}
+
+.title {
+  font-size: 61.258px;
+  font-weight: 500;
+  line-height: 73.243px;
+  letter-spacing: -1.225px;
+  color: #FFF;
+  margin-bottom: 26px;
+}
+
+/* .icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 439.46px;
+  height: 159.804px;
+  border-radius: 21px;
+  background: rgba(245, 63, 161, 0.05);
+  backdrop-filter: blur(2.6633963584899902px);
+  margin-bottom: 56px;
+} */
+
+.wrap-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 27px;
+  margin-right: 21px;
+} 
+
+.icons {
+  display: grid;
+  grid-template: 40% 40% / 51% 49%;
+  width: 439.46px;
+  height: 159.804px;
+  border-radius: 21px;
+  background: rgba(245, 63, 161, 0.05);
+  backdrop-filter: blur(2.6633963584899902px);
+  margin-bottom: 56px;
+}
+
+
+.icons p {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.24px;
+}
+
+.icons img {
+  width: 42px;
+  object-fit: scale-down;
+  border-radius: 10.6px;
+  background: #F53FA1;
+}
+
+.image {
+  width: 588px;
+  height: 600px;
+}
+
+.container {
+  margin-left: 106px;
+}
