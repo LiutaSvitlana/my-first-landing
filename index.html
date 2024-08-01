@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming Landing Page</title>
  
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <div>
+    <div class="background-container">
     <header class="header">
         <nav>
-            <div class="navigation">
-                <!-- <img src="img/Frame.svg" alt="logo"> -->
-                <ul>
+            <div> 
+                <ul class="navigation">
                     <li><a href="#">Join the team</a></li>
                     <li><a href="#">Contact us</a></li>
+                    <li><img class="logo" src="img/Frame.svg" alt="logo"></li>
                     <li><a href="#">Previous Campaign</a></li>
                     <li><a href="#">All Games List</a></li>
                 </ul>
@@ -25,41 +25,46 @@
     </header>
 
     <main>
-        <section>
-            <h1>Gaming Club 2.0 Release</h1>
-            <div>
-                <p>Have y</p>
-                <p>u ever</p>
-                <p>tried Night Bl</p>
-                <p>dthirster?</p>
+        <section class="main-container">
+            <div class="container">
+                <h1>Gaming Club 2.0 Release</h1>
+                <div class="title">
+                    <p>Have y<svg xmlns="http://www.w3.org/2000/svg" width="80" height="36" viewBox="0 0 80 36" fill="none">
+                        <path d="M16.2951 35.5876C16.2755 35.5876 16.2559 35.5876 16.2363 35.5875C12.9531 35.5787 10.1038 34.8335 7.68829 33.3517C5.25839 31.8611 3.3798 29.8089 2.05254 27.1952C0.745705 24.5611 0.0922852 21.5289 0.0922852 18.0984C0.0922852 14.6475 0.766124 11.6153 2.1138 9.00157C3.46148 6.36747 5.35027 4.32554 7.78018 2.87576C10.179 1.4244 12.9757 0.68942 16.1705 0.670833C16.212 0.670592 16.2535 0.670471 16.2951 0.670471C16.3371 0.670471 63.5332 0.670693 63.5751 0.670934C66.83 0.689648 69.6569 1.43483 72.0559 2.90649C74.4858 4.39711 76.3644 6.44925 77.6917 9.06293C79.0189 11.6766 79.6825 14.6885 79.6825 18.0985C79.6825 21.5494 79.0087 24.5919 77.661 27.226C76.3338 29.8396 74.4552 31.8918 72.0253 33.3824C69.6099 34.8438 66.7708 35.5789 63.508 35.5876C63.4884 35.5877 16.3147 35.5876 16.2951 35.5876ZM16.2951 29.5537C16.305 29.5537 63.4689 29.5538 63.4788 29.5537C66.6289 29.5471 68.9774 28.4853 70.5245 26.3683C72.0968 24.2243 72.8829 21.4677 72.8829 18.0985C72.8829 14.6476 72.0865 11.891 70.4938 9.82866C68.9278 7.75423 66.5921 6.71286 63.4867 6.70455C63.4742 6.70451 16.3076 6.70439 16.2951 6.70439C16.2825 6.70439 16.27 6.70441 16.2575 6.70444C14.1304 6.71014 12.3766 7.20018 10.9962 8.17459C9.60771 9.1343 8.57653 10.4718 7.90269 12.187C7.22886 13.8818 6.89194 15.8523 6.89194 18.0984C6.89194 21.5697 7.68829 24.3467 9.281 26.4295C10.8679 28.5047 13.1948 29.5461 16.2616 29.5536C16.2727 29.5537 16.2839 29.5537 16.2951 29.5537Z" fill="white"/>
+                      </svg>u ever</p>
+                    <p>tried Night </p>
+                    <p>Bl<svg xmlns="http://www.w3.org/2000/svg" width="61" height="36" viewBox="0 0 61 36" fill="none">
+                        <path d="M16.6724 35.4491C16.6528 35.4491 16.6332 35.4491 16.6136 35.449C13.3305 35.4403 10.4811 34.695 8.06561 33.2132C5.6357 31.7226 3.75712 29.6704 2.42986 27.0568C1.12302 24.4227 0.469604 21.3904 0.469604 17.9599C0.469604 14.509 1.14344 11.4768 2.49112 8.8631C3.8388 6.229 5.72759 4.18706 8.1575 2.73728C10.5563 1.28592 13.3531 0.550942 16.5478 0.532354C16.5893 0.532113 16.6308 0.531993 16.6724 0.531993C16.7144 0.531993 44.2467 0.531729 44.2886 0.53197C47.5434 0.550684 50.3704 1.29587 52.7694 2.76753C55.1993 4.25814 57.0779 6.31029 58.4051 8.92397C59.7324 11.5376 60.396 14.5495 60.396 17.9595C60.396 21.4104 59.7222 24.4529 58.3745 27.087C57.0472 29.7007 55.1687 31.7528 52.7388 33.2434C50.3234 34.7048 47.4843 35.4399 44.2215 35.4487C44.2019 35.4487 16.692 35.4491 16.6724 35.4491ZM16.6724 29.4152C16.6823 29.4152 44.1824 29.4148 44.1923 29.4148C47.3424 29.4082 49.6909 28.3464 51.2379 26.2294C52.8102 24.0854 53.5964 21.3287 53.5964 17.9595C53.5964 14.5087 52.8 11.7521 51.2073 9.68969C49.6413 7.61526 47.3056 6.57389 44.2001 6.56558C44.1876 6.56555 16.6849 6.56592 16.6724 6.56592C16.6599 6.56592 16.6473 6.56593 16.6348 6.56597C14.5077 6.57166 12.754 7.06171 11.3735 8.03611C9.98503 8.99582 8.95385 10.3333 8.28001 12.0485C7.60617 13.7433 7.26926 15.7138 7.26926 17.9599C7.26926 21.4312 8.06561 24.2083 9.65832 26.291C11.2453 28.3663 13.5721 29.4076 16.6389 29.4152C16.6501 29.4152 16.6612 29.4152 16.6724 29.4152Z" fill="white"/>
+                      </svg>dthirster?</p>
+                </div>
+                <div class="icons">
+                    <div class="wrap-icons two">
+                        <img srcset="img/icon-pin.png, img/icon-pin@2x.png" src="img/icon-game.png" alt="icon-pin">
+                        <p>2 Months Trip to Swiss</p>
+                    </div>
+                    <div class="wrap-icons one">
+                        <img srcset="img/icon-game.png, img/icon-game@2x.png" src="img/icon-game.png" alt="icon-game">
+                        <p>6 Hrs Coaching/day</p>
+                    </div>
+                    <div class="wrap-icons two">
+                        <img srcset="img/icon-user.png, img/icon-user@2x.png" src="img/icon-user.png" alt="icon-user">
+                        <p>+20,000 Attendees</p>
+                    </div>
+                    <div class="wrap-icons one">
+                        <img srcset="img/icon-ticket.png, img/icon-ticket@2x.png" src="img/icon-ticket.png" alt="icon-ticket">
+                        <p>Many Surprises!</p>
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#" class="join-link">JOIN GAMING!</a>
+                    <a href="#" class="link">SEE ALL GAMES</a>
+                </div>
             </div>
-            <div>
-                <div>
-                    <img srcset="img/icon-pin.png, img/icon-pin@2x.png" src="img/icon-game.png" alt="icon-pin">
-                    <p>2 Months Trip to Swiss</p>
-                </div>
-                <div>
-                    <img srcset="img/icon-game.png, img/icon-game@2x.png" src="img/icon-game.png" alt="icon-game">
-                    <p>6 Hrs Coaching/day</p>
-                </div>
-                <div>
-                    <img srcset="img/icon-user.png, img/icon-user@2x.png" src="img/icon-user.png" alt="icon-user">
-                    <p>+20,000 Attendees</p>
-                </div>
-                <div>
-                    <img srcset="img/icon-ticket.png, img/icon-ticket@2x.png" src="img/icon-ticket.png" alt="icon-ticket">
-                    <p>Many Surprises!</p>
-                </div>
-            </div>
-            <div>
-                <a href="#">JOIN GAMING!</a>
-                <a href="#">SEE ALL GAMES</a>
-            </div>
-            <div>
+            <div class="image">
                 <img srcset="img/girl-image1x.png, img/girl-image@2x.png" alt="girl in headphones">
             </div>
         </section>
-    </main>
+    </main>  
     </div>
 </body>
 </html>
