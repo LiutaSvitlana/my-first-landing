@@ -1,2 +1,2 @@
 # my-first-landing
-My first landing page v1
+My first landing page
